@@ -1,0 +1,31 @@
+body{
+    box-sizing: border-box;
+   border: 2px solid gold;
+}
+h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 4;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat( 8, 40px);
+    grid-template-rows: repeat(8, 40px);
+    padding: 50px;
+
+    
+}
+.light{
+    background-color: antiquewhite;
+
+}
+.dark{
+    background-color: brown;
+}
